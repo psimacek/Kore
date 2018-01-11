@@ -20,7 +20,7 @@
     <string name="settings">Nastavení</string>
     <string name="action_options">Možnosti</string>
 
-    <string name="loading">Načítám…</string>
+    <string name="loading">Načítá se…</string>
 
     <!-- Navigation drawer tips -->
 	<string name="navigation_drawer_open">Otevřít navigační menu</string>
@@ -37,7 +37,7 @@
     <string name="video">Video</string>
     <string name="file_browser">Průzkumník souborů</string>
 
-    <string name="no_xbmc_configured">Žádné multimediální centrum nenakonfigurováno</string>
+    <string name="no_xbmc_configured">Žádné multimediální centrum není nastaveno</string>
     <string name="add_xbmc">Přidat multimediální centrum</string>
 
     <string name="xbmc_quit">Multimediální centrum se ukončuje.</string>
@@ -50,7 +50,7 @@
     <string name="shutdown">Vypnout</string>
 
     <string name="send">Odeslat</string>
-    <string name="send_text">Odeslat text do multimediálního centra</string>
+    <string name="send_text">Odeslat text</string>
     <string name="text_to_send">Text k odeslání</string>
     <string name="finish_after_send">Ukončit po odeslání</string>
 
@@ -63,8 +63,8 @@
     <string name="toggle_fullscreen">Režim celé obrazovky</string>
 
     <string name="connected_to">Připojeno k %1$s</string>
-    <string name="connecting">Připojuji…</string>
-    <string name="connecting_to">Připojuji k %1$s (%2$s)…</string>
+    <string name="connecting">Připojuje se…</string>
+    <string name="connecting_to">Připojuje se k %1$s (%2$s)…</string>
 
     <!-- String used in add host wizard -->
     <string name="wizard_welcome">Vítejte</string>
@@ -77,13 +77,13 @@
     Vyhledávám multimediální centra v síti…<br/>
     ]]></string>
     <string name="wizard_search_no_host_found"><![CDATA[
-    Žádné multimediální centrum nenalezeno.<br/>Nápovědu ke konfiguraci naleznete <a href="http://syncedsynapse.com/kore/kore-faq/>zde</a>.<br/><br/>
+    Multimediální centrum nebylo nenalezeno.<br/>Nápovědu ke konfiguraci naleznete <a href="http://syncedsynapse.com/kore/kore-faq/>zde</a>.<br/><br/>
     Stiskněte <i>Vyhledat</i> pro opětovné hledání nebo <i>Dále</i> pro manuální nastavení.
     ]]></string>
     <string name="wizard_search_host_found"><![CDATA[
     Byla nalezena tato multimediální centra.<br/><br/>Vyberte jedno z nich nebo stiskněte <i>Dále</i> pro manuální přidání dalšího.
     ]]></string>
-    <string name="searching">Vyhledávám…</string>
+    <string name="searching">Vyhledává se…</string>
     <string name="no_xbmc_found">Multimediální centrum nenalezeno</string>
     <string name="xbmc_found">Multimediální centrum nalezeno</string>
     <string name="wizard_manual_configuration">Manualní konfigurace</string>
@@ -104,7 +104,7 @@
     <string name="wizard_invalid_http_port_specified">Prosím zadejte platný HTTP port pro toto multimediální centrum.</string>
     <string name="wizard_invalid_tcp_port_specified">Prosím zadejte platný TCP port pro toto multimediální centrum.</string>
 
-    <string name="wizard_connecting_to_xbmc_title">Připojuji k %1$s…</string>
+    <string name="wizard_connecting_to_xbmc_title">Připojuje se k %1$s…</string>
     <string name="wizard_connecting_to_xbmc_message">Prosím vyčkejte na připojení k vašemu multimediálnímu centru…</string>
 
     <string name="wizard_empty_authentication">Kodi/XBMC vyžaduje přihlášení.\nProsím zadejte uživatelské jméno a heslo.</string>
@@ -119,7 +119,7 @@
     Stiskněte <b><i>Dokončit</i></b> a začněte používat toto dálkové ovládání.
     ]]></string>
 
-    <string name="wizard_zeroconf_no_host_address">Nemohu získat adresu tohoto multimediálního centra!</string>
+    <string name="wizard_zeroconf_no_host_address">Nelze získat adresu tohoto multimediálního centra!</string>
     <string name="wizard_zeroconf_cant_connect_no_host_address">Nemohu se připojit k tomuto multimediálnímu centru, neboť jsem nenalezl jeho adresu.</string>
 
     <string name="play">Přehrát</string>
@@ -168,7 +168,7 @@
     <string name="play_file">Přehrát</string>
     <string name="play_from_here">Přehrát odtud</string>
 
-    <string name="connecting_to_xbmc">Připojuji…</string>
+    <string name="connecting_to_xbmc">Připojuje se…</string>
     <string name="unable_to_connect_to_xbmc">Připojení neúspěšné</string>
     <string name="connected_to_xbmc">Připojeno</string>
     <string name="xbmc_available">Dostupný</string>
@@ -194,7 +194,7 @@
     <string name="poster">Poster</string>
     <string name="thumbnail">Miniatura</string>
 
-    <string name="error_getting_properties">Nemohu načíst nastavení Kodi/XBMC.\nChyba:
+    <string name="error_getting_properties">Nelze načíst nastavení Kodi/XBMC.\nChyba:
         %1$s.</string>
     <string name="error_executing_subtitles">Nemohu spustit doplněk titulků.\nChyba: %1$s.</string>
     <string name="error_getting_addon_info">Nemohu načíst informace doplňku.\nChyba:
